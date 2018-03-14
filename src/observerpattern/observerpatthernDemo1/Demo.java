@@ -1,5 +1,11 @@
 package observerpattern.observerpatthernDemo1;
 
+import observerpattern.observerpatthernDemo1.intf.Observer;
+import observerpattern.observerpatthernDemo1.observable.WeatherData;
+import observerpattern.observerpatthernDemo1.observer.CurrentConditionDisplay;
+import observerpattern.observerpatthernDemo1.observer.ForecastDisplay;
+import observerpattern.observerpatthernDemo1.observer.StatisticsDisplay;
+
 public class Demo {
     public static void main(String[] args) {
         Observer o1 = new StatisticsDisplay();

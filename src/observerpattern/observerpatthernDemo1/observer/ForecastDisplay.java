@@ -1,4 +1,7 @@
-package observerpattern.observerpatthernDemo1;
+package observerpattern.observerpatthernDemo1.observer;
+
+import observerpattern.observerpatthernDemo1.intf.DisplayElement;
+import observerpattern.observerpatthernDemo1.intf.Observer;
 
 public class ForecastDisplay implements Observer,DisplayElement {
 

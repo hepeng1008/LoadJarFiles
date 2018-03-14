@@ -1,4 +1,4 @@
-package observerpattern.observerpatthernDemo1;
+package observerpattern.observerpatthernDemo1.intf;
 
 public interface DisplayElement {
 

@@ -1,6 +1,9 @@
-package observerpattern.observerpatthernDemo1;
+package observerpattern.observerpatthernDemo1.observer;
 
-public class StatisticsDisplay implements Observer,DisplayElement {
+import observerpattern.observerpatthernDemo1.intf.DisplayElement;
+import observerpattern.observerpatthernDemo1.intf.Observer;
+
+public class CurrentConditionDisplay implements Observer,DisplayElement {
 
     private float temperature;
     private float humidity;
@@ -8,7 +11,7 @@ public class StatisticsDisplay implements Observer,DisplayElement {
 
     @Override
     public void display() {
-        System.out.println("Statistics:"+temperature+"F degreee and "+humidity+"% humidity");
+        System.out.println("Current:"+temperature+"F degreee and "+humidity+"% humidity");
 
     }
 
