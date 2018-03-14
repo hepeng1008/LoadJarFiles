@@ -6,7 +6,7 @@ public class DoubleCheckSingleton {
 
     private DoubleCheckSingleton(){}
 
-   public static synchronized DoubleCheckSingleton getSingleton(){
+   public static DoubleCheckSingleton getSingleton(){
         if(singleton==null){
             synchronized (DoubleCheckSingleton.class){
 
