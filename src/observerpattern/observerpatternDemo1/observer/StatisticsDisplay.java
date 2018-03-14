@@ -1,9 +1,9 @@
-package observerpattern.observerpatthernDemo1.observer;
+package observerpattern.observerpatternDemo1.observer;
 
-import observerpattern.observerpatthernDemo1.intf.DisplayElement;
-import observerpattern.observerpatthernDemo1.intf.Observer;
+import observerpattern.observerpatternDemo1.intf.DisplayElement;
+import observerpattern.observerpatternDemo1.intf.Observer;
 
-public class ForecastDisplay implements Observer,DisplayElement {
+public class StatisticsDisplay implements Observer,DisplayElement {
 
     private float temperature;
     private float humidity;
@@ -11,7 +11,7 @@ public class ForecastDisplay implements Observer,DisplayElement {
 
     @Override
     public void display() {
-        System.out.println("Forecast:"+temperature+"F degreee and "+humidity+"% humidity");
+        System.out.println("Statistics:"+temperature+"F degreee and "+humidity+"% humidity");
 
     }
 

@@ -1,7 +1,7 @@
-package observerpattern.observerpatthernDemo1.observable;
+package observerpattern.observerpatternDemo1.observable;
 
 
-import observerpattern.observerpatthernDemo1.intf.Observer;
+import observerpattern.observerpatternDemo1.intf.Observer;
 
 //被观察者
 public interface Subject {

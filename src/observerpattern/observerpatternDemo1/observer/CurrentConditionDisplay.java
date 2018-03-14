@@ -1,7 +1,7 @@
-package observerpattern.observerpatthernDemo1.observer;
+package observerpattern.observerpatternDemo1.observer;
 
-import observerpattern.observerpatthernDemo1.intf.DisplayElement;
-import observerpattern.observerpatthernDemo1.intf.Observer;
+import observerpattern.observerpatternDemo1.intf.DisplayElement;
+import observerpattern.observerpatternDemo1.intf.Observer;
 
 public class CurrentConditionDisplay implements Observer,DisplayElement {
 

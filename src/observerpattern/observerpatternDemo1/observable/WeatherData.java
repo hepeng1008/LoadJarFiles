@@ -1,6 +1,6 @@
-package observerpattern.observerpatthernDemo1.observable;
+package observerpattern.observerpatternDemo1.observable;
 
-import observerpattern.observerpatthernDemo1.intf.Observer;
+import observerpattern.observerpatternDemo1.intf.Observer;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,9 @@ public class WeatherData implements Subject {
 
     @Override
     public void removeObserver(Observer o) {
-        observerList.remove(o);
+        if(observerList.size()>0){
+            observerList.remove(o);
+        }
     }
 
     @Override
